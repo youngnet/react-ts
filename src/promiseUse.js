@@ -7,11 +7,6 @@ let res = new ES5Promise((resolve, reject) => {
         console.log("TCL: data", data);
         return data + 333;
     })
-    .then(
-        data => {
-            console.log("TCL: two", data);
-        },
-        err => {
-            console.log("TCL: err", err);
-        }
-    );
+    
+
+console.log(3)
